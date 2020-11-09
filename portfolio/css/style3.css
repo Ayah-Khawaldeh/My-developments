@@ -14,7 +14,43 @@ body {
  margin-top:30%;
  align-items: center;
  padding-bottom: 5%;
+
 }
+
+
+  ul{
+      list-style: none;
+  }
+  a{
+     text-decoration: none;
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      height:60px;
+      background-color:#e49a61 ;
+      padding: 0px 5%;
+   }
+   nav ul {
+       display: flex;
+       color: #AB4542;
+   }
+   nav ul li a{
+       margin: 30px;
+       color:#E2C0A6;
+       font-size: 17px;
+   }
+   .logo{
+       font-family: 'Sansita Swashed', cursive;
+       color:#592448;
+       font-size: 22pX;
+       
+   }
+   .active{
+       font-weight: bold;
+       color: #8f2925;
+   }
 
 .contact  {
   color:#b9590a ;
